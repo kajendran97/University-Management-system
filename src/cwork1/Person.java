@@ -12,6 +12,7 @@ package cwork1;
 public class Person {
     String name;
     String address;
+    int age;
 
     public Person(String name, String address){
         this.name = name;
