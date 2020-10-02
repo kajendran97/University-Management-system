@@ -21,6 +21,10 @@ public class Student extends Person {
         return studentId;
     }
 
+    public String getStudentName() {
+        // return Name;
+    }
+
    
      
     
