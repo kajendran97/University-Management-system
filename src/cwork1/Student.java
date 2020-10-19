@@ -13,8 +13,8 @@ public class Student extends Person {
 
     public Student(int studentId,String Name, String Address) {
         super(Name, Address);
-//        this.name = Name;
-//        this.address = Address;
+        this.name = Name;
+        this.address = Address;
         this.studentId = studentId;
     }
     public int getstudentId() {
@@ -22,7 +22,7 @@ public class Student extends Person {
     }
 
     public String getStudentName() {
-        // return Name;
+        return this.name;
     }
 
    
