@@ -16,6 +16,7 @@ public class Lecturer extends Person{
         super(Name, Address);
 //        String name = Name;
 //        String address = Address;
+	//	int x = 10;
         this.lecturerId=lecturerId;
     }
      public int getlecturerId() {
